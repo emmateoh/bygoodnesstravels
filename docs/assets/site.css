@@ -5,8 +5,8 @@
 /* Hallmark · reworded "Explore · Connect · Grow" to the three words stacked on lines · 63 names the middle-dot string */
 /* Hallmark · waive 77 · the thin sections hold the owner's disclaimers, mission and vision, kept verbatim at reading size · the words are the owner's and a redesign keeps them */
 /* Hallmark · waive 78 · legal pages are a Long Document whose heads are inline · their h2s are policy clause titles, not section heads */
-@import url("./tokens.css");
-@import url("./base.css");
+@import url("./tokens.css?v=2");
+@import url("./base.css?v=2");
 
 @font-face { font-family: "Cormorant Garamond"; src: url("fonts/CormorantGaramond-VF.woff2") format("woff2"); font-weight: 300 700; font-display: swap; }
 @font-face { font-family: "Cormorant Garamond"; src: url("fonts/CormorantGaramond-Italic-VF.woff2") format("woff2"); font-weight: 300 700; font-style: italic; font-display: swap; }

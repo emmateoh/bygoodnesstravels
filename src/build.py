@@ -107,7 +107,7 @@ def head(path, title, desc, extra_ld=(), preload_img=None):
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="/assets/fonts/CormorantGaramond-VF.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/Jost-VF.woff2" as="font" type="font/woff2" crossorigin>
-{pre}<link rel="stylesheet" href="/assets/site.css">
+{pre}<link rel="stylesheet" href="/assets/site.css?v=2">
 {ld(*extra_ld)}
 </head>
 <body>
@@ -158,7 +158,7 @@ def footer():
   <div class="colophon"><span>© {date.today().year} ByGoodness Travels. All rights reserved.</span><span data-credits>Photographs (Wikimedia Commons): {CREDITS}</span></div>
 </div></footer>
 <a class="wa-float" href="{WA}?text=Hello%20ByGoodness%20Travels%2C%20I%20would%20like%20to%20plan%20a%20trip." rel="noopener" aria-label="Chat on WhatsApp">{WA_ICON}<span>WhatsApp</span></a>
-<script src="/assets/site.js" defer></script>
+<script src="/assets/site.js?v=2" defer></script>
 </body>
 </html>
 """
