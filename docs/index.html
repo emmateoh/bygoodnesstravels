@@ -23,82 +23,92 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="/assets/fonts/CormorantGaramond-VF.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/Jost-VF.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="/assets/photos/lagoon-1920.jpg" imagesrcset="/assets/photos/lagoon-960.jpg 960w, /assets/photos/lagoon-1920.jpg 1920w" imagesizes="100vw" fetchpriority="high">
 <link rel="stylesheet" href="/assets/site.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TravelAgency", "@id": "https://bygoodnesstravels.com/#org", "name": "ByGoodness Travels", "url": "https://bygoodnesstravels.com/", "logo": "https://bygoodnesstravels.com/assets/img/icon-512.png", "image": "https://bygoodnesstravels.com/assets/img/og.png", "slogan": "Explore · Connect · Grow", "description": "Travel planning, holiday packages, flight and hotel booking assistance, visa application guidance, tours, airport transfers and selected administrative support.", "telephone": "+97430995071", "email": "info@bygoodnesstravels.com", "sameAs": ["https://www.instagram.com/bygoodnesstravels/"], "address": {"@type": "PostalAddress", "addressCountry": "QA"}, "areaServed": [{"@type": "Country", "name": "Qatar"}, "Worldwide"], "contactPoint": {"@type": "ContactPoint", "telephone": "+97430995071", "email": "info@bygoodnesstravels.com", "contactType": "customer service", "availableLanguage": ["English"]}}, {"@type": "WebSite", "@id": "https://bygoodnesstravels.com/#site", "url": "https://bygoodnesstravels.com/", "name": "ByGoodness Travels", "publisher": {"@id": "https://bygoodnesstravels.com/#org"}}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-head"><div class="wrap">
+<header class="site-head"><div class="container">
   <a class="brand" href="/" aria-label="ByGoodness Travels home"><img src="/assets/img/logo.svg" alt="ByGoodness Travels" width="300" height="88"></a>
-  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
-  <nav class="nav" id="nav" aria-label="Main"><a href="/about/">About Us</a><a href="/flights-holidays/">Flights &amp; Holidays</a><a href="/visa-assistance/">Visa Assistance</a><a href="/travel-services/">Travel Services</a><a href="/consulting/">Consulting</a><a href="/business/">Business</a><a class="btn btn-navy" href="/contact/">Contact Us</a></nav>
+  <div class="nav-end">
+    <nav class="nav-links" id="nav" aria-label="Main"><a href="/about/">About Us</a><a href="/flights-holidays/">Flights &amp; Holidays</a><a href="/visa-assistance/">Visa Assistance</a><a href="/travel-services/">Travel Services</a><a href="/consulting/">Consulting</a><a href="/business/">Business</a><a href="/contact/">Contact Us</a></nav>
+    <a class="btn btn-primary" href="https://wa.me/97430995071" rel="noopener">WhatsApp us</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+  </div>
 </div></header>
 <main id="main">
 
-<section class="dark hero">
-  <img class="motif globe" src="/assets/img/globe-gold.svg" alt="" aria-hidden="true">
-  <img class="motif flight" src="/assets/img/flightpath-gold.svg" alt="" aria-hidden="true">
-  <div class="wrap">
-    <p class="kicker">Explore · Connect · Grow</p>
-    <h1>Your Journey. Your World.<br><em>Our Commitment.</em></h1>
-    <p class="lede">Discover new destinations, experience meaningful journeys and access travel support designed around your needs.</p>
-    <div class="btns"><a class="btn btn-gold" href="/contact/">Plan Your Trip</a><a class="btn btn-line" href="#services">Explore Our Services</a><a class="btn btn-line" href="/contact/">Contact Us</a></div>
+<section class="hero">
+  <div data-slot="hero" data-alt="A wide photograph of a destination ByGoodness Travels has arranged, calm area low and left for the headline"><img src="/assets/photos/lagoon-1920.jpg" srcset="/assets/photos/lagoon-960.jpg 960w, /assets/photos/lagoon-1920.jpg 1920w" sizes="100vw" width="1920" height="1261" alt="two fishermen hauling a net across white sand by a turquoise lagoon" fetchpriority="high" style="object-position: 62% 55%"></div>
+  <div class="container">
+    <h1>Your Journey.<br>Your World.<br>Our Commitment.</h1>
+    <p class="lead">Flights, holidays, visas and transfers, planned around your needs.</p>
+    <div class="actions"><a class="btn btn-primary" href="/contact/">Plan your trip</a><a class="btn btn-quiet" href="#services">Explore our services</a></div>
   </div>
 </section>
 
-<section class="sec"><div class="wrap split">
-  <div class="sec-head" style="margin:0"><p class="kicker">Welcome to ByGoodness Travels</p><h2>Travel planning, made <em>simpler</em></h2></div>
-  <div class="prose">
-    <p class="lede">At ByGoodness Travels, we help make travel planning simpler through personalised travel services, holiday experiences and practical support for your travel needs.</p>
+<section class="sec-l statement"><div class="container">
+  <p>At ByGoodness Travels, we help make travel planning simpler through personalised travel services, holiday experiences and practical support for your travel needs.</p>
+  <div class="follow">
     <p>Whether you are planning a family holiday, a business trip, an international getaway or exploring new opportunities abroad, we are here to help you take the next step with greater confidence.</p>
-    <p>From flight bookings and hotel reservations to visa application assistance, tours and tailored travel packages, we work to make every journey more organised, convenient and memorable.</p>
-    <p><strong>Explore the possibilities. Let us help you plan the journey.</strong></p>
+    <a class="btn btn-quiet" href="/about/">About us</a>
   </div>
 </div></section>
 
-<section class="sec white" id="services"><div class="wrap">
-  <div class="sec-head"><p class="kicker">Our services</p><h2>Discover what we can <em>do for you</em></h2></div>
-  <div class="services"><a class="svc" href="/flights-holidays/"><span class="num">I</span><h3>Flights &amp; Travel Bookings</h3><p>Get assistance with flight enquiries, itinerary planning and travel arrangements tailored to your destination, schedule and budget.</p><span class="more">Learn more →</span></a><a class="svc" href="/flights-holidays/"><span class="num">II</span><h3>Holiday Packages &amp; Tours</h3><p>Explore exciting destinations through thoughtfully planned holidays, city tours, sightseeing experiences and customised travel packages.</p><span class="more">Learn more →</span></a><a class="svc" href="/visa-assistance/"><span class="num">III</span><h3>Visa Application Assistance</h3><p>Receive guidance on visa application requirements, supporting documents and application preparation for your intended destination. Visa decisions remain with the relevant immigration authorities.</p><span class="more">Learn more →</span></a><a class="svc" href="/travel-services/"><span class="num">IV</span><h3>Hotel &amp; Accommodation Reservations</h3><p>Find accommodation options suited to your travel preferences, itinerary and budget.</p><span class="more">Learn more →</span></a><a class="svc" href="/travel-services/"><span class="num">V</span><h3>Airport Transfers &amp; Travel Support</h3><p>Arrange airport pick-ups, drop-offs and selected travel-related services to help make your journey more convenient.</p><span class="more">Learn more →</span></a><a class="svc" href="/consulting/"><span class="num">VI</span><h3>Consulting &amp; Administrative Services</h3><p>Access assistance with selected administrative processes, business support and documentation-related services, subject to applicable requirements.</p><span class="more">Learn more →</span></a></div>
+<section class="sec rows-wrap" id="services"><div class="container grid12">
+  <div class="head"><h2>Discover what we can do for you</h2><p class="lead">From flight bookings and hotel reservations to visa application assistance, tours and tailored travel packages.</p></div>
+  <ul class="rows"><li><h3>Flights &amp; Travel Bookings</h3><p>Get assistance with flight enquiries, itinerary planning and travel arrangements tailored to your destination, schedule and budget.</p><a class="text-link" href="/flights-holidays/">Flights and holidays</a></li><li><h3>Holiday Packages &amp; Tours</h3><p>Explore exciting destinations through thoughtfully planned holidays, city tours, sightseeing experiences and customised travel packages.</p><a class="text-link" href="/flights-holidays/">Flights and holidays</a></li><li><h3>Visa Application Assistance</h3><p>Receive guidance on visa application requirements, supporting documents and application preparation for your intended destination. Visa decisions remain with the relevant immigration authorities.</p><a class="text-link" href="/visa-assistance/">Visa assistance</a></li><li><h3>Hotel &amp; Accommodation Reservations</h3><p>Find accommodation options suited to your travel preferences, itinerary and budget.</p><a class="text-link" href="/travel-services/">Hotels, tours and transfers</a></li><li><h3>Airport Transfers &amp; Travel Support</h3><p>Arrange airport pick-ups, drop-offs and selected travel-related services to help make your journey more convenient.</p><a class="text-link" href="/travel-services/">Hotels, tours and transfers</a></li><li><h3>Consulting &amp; Administrative Services</h3><p>Access assistance with selected administrative processes, business support and documentation-related services, subject to applicable requirements.</p><a class="text-link" href="/consulting/">Consulting services</a></li></ul>
 </div></section>
 
-<section class="sec sky"><div class="wrap">
-  <div class="sec-head"><p class="kicker">How it works</p><h2>Four steps to a <em>well-organised</em> trip</h2></div>
-  <ol class="steps">
-    <li><h3>Tell us your plans</h3><p>Share your destination, travel dates, number of travellers and budget.</p></li>
-    <li><h3>Receive your options</h3><p>We review your requirements and provide suitable available options.</p></li>
-    <li><h3>Confirm your arrangements</h3><p>Review the itinerary, inclusions, exclusions and payment terms before proceeding.</p></li>
-    <li><h3>Prepare for your journey</h3><p>Receive the booking details and travel information for your confirmed arrangements.</p></li>
-  </ol>
+<section class="sec showcase"><div class="container">
+  <figure><div data-slot="showcase" data-alt="A landscape from a tour or excursion ByGoodness Travels offers, wide 21:9 crop"><img src="/assets/photos/dune-1920.jpg" srcset="/assets/photos/dune-960.jpg 960w, /assets/photos/dune-1920.jpg 1920w" sizes="100vw" width="1920" height="1280" alt="a tall orange dune in sun and shadow against a blue sky" loading="lazy" decoding="async"></div>
+    <figcaption>Desert excursions, city tours, cultural landmarks and relaxing getaways, arranged as part of your itinerary.</figcaption></figure>
+  <div class="pair">
+    <figure><div data-slot="photo-2" data-alt="A hotel room or resort the agency books, 4:3"><img src="/assets/photos/hotel-suite-1920.jpg" srcset="/assets/photos/hotel-suite-960.jpg 960w, /assets/photos/hotel-suite-1920.jpg 1920w" sizes="(max-width: 40rem) 100vw, 66vw" width="1920" height="1280" alt="a four-poster bed with white drapes in a hotel suite" loading="lazy" decoding="async"></div><figcaption>Hotel and accommodation reservations</figcaption></figure>
+    <figure><div data-slot="photo-3" data-alt="A market, old town or cultural visit, portrait 3:4"><img src="/assets/photos/souk-lanterns-1920.jpg" srcset="/assets/photos/souk-lanterns-960.jpg 960w, /assets/photos/souk-lanterns-1920.jpg 1440w" sizes="(max-width: 40rem) 100vw, 33vw" width="1440" height="2017" alt="metal lanterns glowing in a souk" loading="lazy" decoding="async"></div><figcaption>City tours and sightseeing</figcaption></figure>
+  </div>
 </div></section>
 
-<section class="sec has-motif"><img class="bg" src="/assets/img/globe-navy.svg" alt="" aria-hidden="true"><div class="wrap quote">
-  <p class="kicker">Our commitment</p>
-  <blockquote>Every journey begins with an <em>opportunity.</em></blockquote>
-  <a class="btn btn-navy" href="/about/">About ByGoodness Travels</a>
+<section class="sec-l tint"><div class="container">
+  <div class="head"><h2>How it works</h2></div>
+  <ol class="steps"><li><h3>Tell us your plans</h3><p>Share your destination, travel dates, number of travellers and budget.</p></li><li><h3>Receive your options</h3><p>We will review your requirements and provide suitable available options.</p></li><li><h3>Confirm your arrangements</h3><p>Review the itinerary, inclusions, exclusions and payment terms before proceeding.</p></li><li><h3>Prepare for your journey</h3><p>Receive the relevant booking details and travel information for your confirmed arrangements.</p></li></ol>
 </div></section>
 
-<section class="sec white"><div class="wrap split">
-  <div class="sec-head" style="margin:0"><p class="kicker">Questions</p><h2>Frequently <em>asked</em></h2><p class="muted">More answers on our <a href="/faq/">FAQ page</a>.</p></div>
+<section class="sec rows-wrap"><div class="container grid12">
+  <div class="head"><h2>Frequently asked questions</h2><p class="lead"><a class="text-link" href="/faq/">All questions and answers</a></p></div>
   <div class="faq"><details><summary>Can I request a customised travel package?</summary><p>Yes. You can tell us your preferred destination, dates, number of travellers, budget and the services you would like included. We can then discuss suitable available options.</p></details><details><summary>Can you assist with visa applications?</summary><p>We provide application guidance and document preparation assistance for selected destinations. Eligibility and final decisions rest with the relevant immigration authorities.</p></details><details><summary>Are flights and hotels included in every package?</summary><p>No. Inclusions vary by package. Please review the quotation and written booking confirmation to understand what is included and excluded.</p></details></div>
 </div></section>
-<section class="dark sec"><div class="wrap cta">
-  <div><h2>Your next destination <em>starts here</em></h2><p>Whether you already know where you want to go or need help exploring your options, we welcome your enquiry. Tell us your destination, preferred dates, number of travellers and budget. We will help you explore suitable options.</p></div>
-  <div class="btns"><a class="btn btn-gold" href="/contact/">Request a Travel Quote</a><a class="btn btn-line" href="https://wa.me/97430995071" rel="noopener">WhatsApp +974 3099 5071</a></div>
+<section class="sec contact-close"><div class="container">
+  <div class="head"><h2>Your next destination starts here</h2><p class="lead">Tell us your destination, preferred dates, number of travellers and budget. We will help you explore suitable options.</p></div>
+  <div class="actions"><a class="btn btn-primary" href="/contact/">Request a travel quote</a></div>
+  <ul class="channels">
+    <li><span class="label">Phone / WhatsApp</span><a href="https://wa.me/97430995071" rel="noopener">+974 3099 5071</a></li>
+    <li><span class="label">Email</span><a href="mailto:info@bygoodnesstravels.com">info@bygoodnesstravels.com</a></li>
+    <li><span class="label">Instagram</span><a href="https://www.instagram.com/bygoodnesstravels/" rel="noopener">@bygoodnesstravels</a></li>
+  </ul>
 </div></section></main>
-<footer class="site-foot"><div class="wrap">
-  <div class="foot-top">
-    <div><img src="/assets/img/logo-white.svg" alt="ByGoodness Travels" width="300" height="88" loading="lazy">
-      <p class="tag">Explore · Connect · Grow</p>
-      <p>Travel planning, holiday experiences, visa application assistance and selected administrative support.</p></div>
-    <div><h2>Explore</h2><ul><li><a href="/">Home</a></li><li><a href="/about/">About Us</a></li><li><a href="/flights-holidays/">Flights &amp; Holidays</a></li><li><a href="/visa-assistance/">Visa Assistance</a></li><li><a href="/travel-services/">Travel Services</a></li><li><a href="/consulting/">Consulting</a></li><li><a href="/business/">Business</a></li><li><a href="/contact/">Contact Us</a></li><li><a href="/faq/">FAQ</a></li></ul></div>
-    <div><h2>Contact</h2><ul>
-      <li>Phone / WhatsApp: <a href="https://wa.me/97430995071" rel="noopener">+974 3099 5071</a></li>
-      <li>Email: <a href="mailto:info@bygoodnesstravels.com">info@bygoodnesstravels.com</a></li>
-      <li>Instagram: <a href="https://www.instagram.com/bygoodnesstravels/" rel="noopener">@bygoodnesstravels</a></li></ul></div>
+<footer class="site-foot"><div class="container">
+  <div class="sign-off">
+    <p>Let us help you plan your next journey.</p>
+    <p class="from">ByGoodness Travels. Your Journey. Your World. Our Commitment.</p>
   </div>
-  <div class="foot-bottom"><span>© 2026 ByGoodness Travels. All rights reserved.</span><nav aria-label="Legal"><a href="/privacy-policy/">Privacy Policy</a><a href="/terms/">Terms &amp; Conditions</a><a href="/booking-policy/">Booking &amp; Cancellation Policy</a></nav></div>
+  <div class="foot-grid">
+    <div style="display:grid;gap:var(--space-md);align-content:start">
+      <img class="foot-logo" src="/assets/img/logo-white.svg" alt="ByGoodness Travels" width="300" height="88" loading="lazy">
+      <p class="tagline">Explore<br>Connect<br>Grow</p>
+      <p>Travel planning, holiday experiences, visa application assistance and selected administrative support.</p>
+    </div>
+    <div><h2>Pages</h2><ul><li><a href="/">Home</a></li><li><a href="/about/">About Us</a></li><li><a href="/flights-holidays/">Flights &amp; Holidays</a></li><li><a href="/visa-assistance/">Visa Assistance</a></li><li><a href="/travel-services/">Travel Services</a></li><li><a href="/consulting/">Consulting</a></li><li><a href="/business/">Business</a></li><li><a href="/contact/">Contact Us</a></li><li><a href="/faq/">FAQ</a></li></ul></div>
+    <div><h2>Contact</h2><ul>
+      <li><a href="https://wa.me/97430995071" rel="noopener">Phone / WhatsApp: +974 3099 5071</a></li>
+      <li><a href="mailto:info@bygoodnesstravels.com">Email: info@bygoodnesstravels.com</a></li>
+      <li><a href="https://www.instagram.com/bygoodnesstravels/" rel="noopener">Instagram: @bygoodnesstravels</a></li></ul>
+      <h2 style="margin-top:var(--space-lg)">Policies</h2><ul><li><a href="/privacy-policy/">Privacy Policy</a></li><li><a href="/terms/">Terms &amp; Conditions</a></li><li><a href="/booking-policy/">Booking &amp; Cancellation Policy</a></li></ul></div>
+  </div>
+  <div class="colophon"><span>© 2026 ByGoodness Travels. All rights reserved.</span><span data-credits>Photographs (Wikimedia Commons): <a href="https://commons.wikimedia.org/wiki/File:Fishermen_at_Kavarathi,_Lakshadweep,_India_(edit).jpg">Shafeeq Thamarassery</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Tocumen_International_Airport_alt.jpg">Wilfredor</a> (CC0), <a href="https://commons.wikimedia.org/wiki/File:Canopy_bed_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg">Basile Morin</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Oriental_hanging_lanterns._Souk_Haddadine,_Marrakech_Medina,_Morocco.jpg">Petar Milošević</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:006_Dune_45_in_Sossusvlei_at_sunrise_Photo_by_Giles_Laurent.jpg">Giles Laurent</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Fountain_pen_writing_(literacy).jpg">Petar Milošević</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Family_walking_at_the_evening,_cox%27s_bazar_.jpg">Ferdous</a> (CC BY-SA 3.0)</span></div>
 </div></footer>
-<a class="wa-float" href="https://wa.me/97430995071?text=Hello%20ByGoodness%20Travels%2C%20I%20would%20like%20to%20plan%20a%20trip." rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg><span>WhatsApp us</span></a>
+<a class="wa-float" href="https://wa.me/97430995071?text=Hello%20ByGoodness%20Travels%2C%20I%20would%20like%20to%20plan%20a%20trip." rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg><span>WhatsApp</span></a>
 <script src="/assets/site.js" defer></script>
 </body>
 </html>
